@@ -12,10 +12,7 @@ export default function App() {
       <Text style={styles.description}>
         Test the native WebView functionality
       </Text>
-      <Button
-        title="Open React Native Website"
-        onPress={handleOpenWebview}
-      />
+      <Button title="Open React Native Website" onPress={handleOpenWebview} />
     </View>
   );
 }
