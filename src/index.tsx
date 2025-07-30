@@ -1,5 +1,5 @@
 import ReactNativeWebview from './NativeReactNativeWebview';
 
-export function multiply(a: number, b: number): number {
-  return ReactNativeWebview.multiply(a, b);
+export function openWebview(url: string): void {
+  return ReactNativeWebview.open(url);
 }
